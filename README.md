@@ -11,4 +11,4 @@ Go into the notebook `art_generator_notebook.ipynb`, search for the code lines b
 
 `style_image = imageio.imread("image_from_artist.jpg")`
 
-
+The last line `model_nn(sess, generated_image)` runs the model and prints intermediate pictures after every 20 iterations
