@@ -15,4 +15,4 @@ The last line `model_nn(sess, generated_image)` runs the model and prints interm
 
 ### References
 
-** Gatys et al. 2015, A Neural Algorithm of Artistic Style
+##### Gatys et al. 2015, A Neural Algorithm of Artistic Style
