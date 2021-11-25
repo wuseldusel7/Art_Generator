@@ -12,3 +12,7 @@ In the python script `model_fcts.py`, search for the code lines shown below and 
 `style_image = imageio.imread("image_from_artist.jpg")`
 
 The last line `model_nn(sess, generated_image)` runs the model and prints intermediate pictures after every 20 iterations (=epoch) of 200 epochs in total.
+
+### References
+
+** Gatys et al. 2015, A Neural Algorithm of Artistic Style
