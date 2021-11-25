@@ -5,10 +5,10 @@ This notebook takes a content image and a style image and creates an output imag
 
 ### How to use:
 
-Go into the notebook `art_generator_notebook.ipynb`, search for the code lines below and insert your images of choice by hand. Make sure beforehand that all images have pixel dimensions of 300x400. 
+In the python script `model_fcts.py`, search for the code lines shown below and insert your images of choice by hand. Make sure beforehand that all images have pixel dimensions of 300x400. 
 
 `content_image = imageio.imread("your_picture.jpg")`
 
 `style_image = imageio.imread("image_from_artist.jpg")`
 
-The last line `model_nn(sess, generated_image)` runs the model and prints intermediate pictures after every 20 iterations
+The last line `model_nn(sess, generated_image)` runs the model and prints intermediate pictures after every 20 iterations (=epoch)
